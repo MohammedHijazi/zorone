@@ -3,6 +3,9 @@ import { TouchableOpacity } from 'react-native';
 import styled from 'styled-components/native';
 import { COLORS } from 'constants/styles';
 import Icon from 'react-native-vector-icons/FontAwesome';
+import MapView from 'react-native-maps';
+
+
 
 const Container = styled.View`
   background-color: ${COLORS.GREY.BLACK_RUSSIAN};

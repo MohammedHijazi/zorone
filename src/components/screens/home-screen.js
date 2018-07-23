@@ -5,6 +5,7 @@ import { COLORS } from 'constants/styles';
 import { TouchableWithoutFeedback, ScrollView, TouchableOpacity } from 'react-native';
 import ShowData from 'data/data';
 import Icon from 'react-native-vector-icons/FontAwesome';
+import MapView from 'react-native-maps';
 
 const Container = styled.View`
 	display: flex;
@@ -108,7 +109,7 @@ class HomeScreen extends Component {
 	}
 
 	renderUserNavigation() {
-		const userNavigation = [{ title: 'BROWSE', id: 'browse' }, { title: 'MY LIST', id: 'my-list' }];
+		const userNavigation = [{ title: 'BAMIA', id: 'browse' }, { title: 'BATATA', id: 'my-list' }];
 		const { selected } = this.state;
 
 		return userNavigation.map((element, index) => {
