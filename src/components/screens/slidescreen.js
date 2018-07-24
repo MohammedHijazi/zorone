@@ -7,6 +7,7 @@ import { StyleSheet, Text, View } from "react-native";
 import MapView from 'react-native-maps';
 import TimerMixin from 'react-timer-mixin';
 //import Slideshow from 'react-native-slideshow';
+import { LinearGradient } from 'expo';
 import AppIntroSlider from 'react-native-app-intro-slider';
 import { Ionicons } from '@expo/vector-icons';
 
@@ -42,6 +43,15 @@ const slides = [
     imageStyle: styles.image,
     backgroundColor: '#22bcb5',
   }
+
+  {
+    key: 'somethun1',
+    title: 'Rocket guy',
+    text: 'I\'m already out of descriptions\n\nLorem ipsum bla bla bla',
+    image: require('../../../assets/3.jpeg'),
+    imageStyle: styles.image,
+    backgroundColor: '#22bcb5',
+  }
 ];
 
 
@@ -49,18 +59,23 @@ const slides = [
 class SlideScreen extends Component {
 	  _onDone = () => {
 	    this.props.navigation.navigate('Map')
-	  }
+	}
+
 	  render() {
 	    return (
 	      <AppIntroSlider
+	      	onDone={this._onDone}
 	        slides={slides}
-	        onDone={this._onDone}
+	        renderItem={this._renderItem}
+	        bottomButton
+	        //showPrevButton
+	        showSkipButton
+	        // hideNextButton
+	        // hideDoneButton
+	        // onSkip={() => console.log("skipped")}
 	      />
-    );
-  }
-}
+	    );
+	  }
+	}
 
 export default SlideScreen;
-
-
-
