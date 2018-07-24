@@ -40,14 +40,14 @@ class MapScreen extends Component {
             coordinate={{latitude: 31.547625,
             longitude: 34.456887}}
             title={'Al Mathaf Hotel'}
-            description={'Batata'}
+            description={'Almathaf Hotel is known for luxurious accommodation in Gaza, successful functions, dream weddings and delicious dining'}
             />
 
             <MapView.Marker 
             coordinate={{latitude: 31.527455,
             longitude: 34.437353}}
-            title={'Al Dera Hotel'}
-            description={'Bamia'}
+            title={'Al Deira Hotel'}
+            description={'The Al Deira Hotel is a beach hotel located in Gaza. It was built in 2000 and has 22 rooms which feature high, domed ceilings and views of the Mediterranean. The hotel is regularly used by foreign journalists covering Gaza'}
             />
 
 
@@ -55,7 +55,7 @@ class MapScreen extends Component {
             coordinate={{latitude: 31.525314,
             longitude: 34.435117}}
             title={'Roots Hotel'}
-            description={'koda'}
+            description={'Roots Hotel offers an intimate yet informal atmosphere where you can dine comfortably with friends, family or colleagues and always be sure you will enjoy good quality food. Talented chefs and experienced restaurant teams go the extra mile to ensure that your dining experience is a special one. '}
             />
 
 
@@ -63,14 +63,14 @@ class MapScreen extends Component {
             coordinate={{latitude: 31.522228,
             longitude: 34.444012}}
             title={'Marna House'}
-            description={'tomato'}
+            description={'Marna House Hotel, has been associated with it’s name on Gaza City, the ancient Since its founding in 1946 . It was the first hotel and the residence of many celebrities and dignitaries who visited Gaza City, including the Queen of Jordan, has also a great writer, "Taha Hussein," the global Journalist, "Robert Fisk," and many international figures that have left behind fond memories spent in the Marna House Hotel, and still embodies the whereabouts fragrant history of Gaza and beauty.'}
             />
 
             <MapView.Marker
             coordinate={{latitude: 31.545478,
             longitude: 34.454006}}
             title={'Blue Beach Resort'}
-            description={'MAMA'}
+            description={'The Blue Beach Resort is a luxury beach resort hotel that opened in Gaza in the summer of 2015. The hotel features cabana boys serving clients on its private beach, and an Olympic-size swimming pool.'}
             />
 
 
@@ -79,14 +79,14 @@ class MapScreen extends Component {
             coordinate={{latitude: 31.524373,
             longitude: 34.442911}}
             title={'Shifa Hospital'}
-            description={'MAMA'}
+            description={'Al-Shifa Hospital, properly known as Dar Al-Shifa Hospital is the largest medical complex and central hospital in the Gaza Strip, located in the neighbourhood of North Rimal in Gaza City in the Gaza Governorate.'}
             />
 
             <MapView.Marker
             coordinate={{latitude: 31.507003,
             longitude: 34.439313}}
             title={'Gaza field hospital of the Jordanian'}
-            description={'BaBa'}
+            description={' The first convoy of a new Jordanian field hospital team arrived in the Gaza Strip on Monday, laden with medicines and medical supplies, the Jordan News Agency, Petra, reported on Tuesday.'}
             />
 
 
@@ -95,7 +95,7 @@ class MapScreen extends Component {
             coordinate={{latitude: 31.505967,
             longitude: 34.430625}}
             title={'Al-Quds hospital'}
-            description={'TaTa'}
+            description={'The al-Quds Hospital was a hospital located in the Gaza Strip which was damaged by Israeli forces in 2009.[1] Plans for repairing the hospital started soon afterwards, with the support of France and Qatar.'}
             />
 
 
@@ -105,7 +105,7 @@ class MapScreen extends Component {
             coordinate={{latitude: 31.547850,
             longitude: 34.455880}}
             title={'Al-Khaldy mosque'}
-            description={'TaTa'}
+            description={'Palestinians enjoy the sunset at the al-Khaldi mosque on the beachfront north of Gaza City shortly before the entire area is plunged into darkness due to the ongoing power outage.'}
             />
 
 
@@ -113,7 +113,7 @@ class MapScreen extends Component {
             coordinate={{latitude: 31.523000,
             longitude: 34.432509}}
             title={'Al-Hasaina mosque'}
-            description={'TaTa'}
+            description={'is a new mosque in gaza city,built on the port of Gaza city.'}
             />
 
 
@@ -123,7 +123,7 @@ class MapScreen extends Component {
             coordinate={{latitude: 31.509156,
             longitude: 34.433034}}
             title={'Techno gym'}
-            description={'TaTa'}
+            description={'is a gym with new techniques for athelets.'}
             />
 
 
@@ -131,7 +131,7 @@ class MapScreen extends Component {
             coordinate={{latitude: 31.524025,
             longitude: 34.432544}}
             title={'Sea Port'}
-            description={'TaTa'}
+            description={'Sea port is one of the most visited places for the gazians.'}
             />
 
 
