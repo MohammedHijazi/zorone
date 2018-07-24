@@ -6,6 +6,10 @@ import React, { Component } from 'react';
 import { StyleSheet, Text, View } from "react-native";
 import MapView from 'react-native-maps';
 import TimerMixin from 'react-timer-mixin';
+<<<<<<< HEAD
+=======
+//import Slideshow from 'react-native-slideshow';
+>>>>>>> 0e0b42c... hadi
 import { LinearGradient } from 'expo';
 import AppIntroSlider from 'react-native-app-intro-slider';
 import { Ionicons } from '@expo/vector-icons';
@@ -28,7 +32,7 @@ const slides = [
   },
   {
     key: 'somethun-dos',
-    title: 'Curatid by locals',
+    title: 'Curated by locals',
     text: 'All our tips information comes from Gazans , \n Who Know the best blaus to go !',
     image: require('../../../assets/pepole.jpg'),
     imageStyle: styles.image,
@@ -41,15 +45,6 @@ const slides = [
     image: require('../../../assets/explore.jpg'),
     imageStyle: styles.image,
     backgroundColor: '#b561d1',
-  }
-
-  {
-    key: 'somethun1',
-    title: 'Rocket guy',
-    text: 'I\'m already out of descriptions\n\nLorem ipsum bla bla bla',
-    image: require('../../../assets/3.jpeg'),
-    imageStyle: styles.image,
-    backgroundColor: '#22bcb5',
   }
 ];
 

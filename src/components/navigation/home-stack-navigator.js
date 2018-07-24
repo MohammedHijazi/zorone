@@ -10,7 +10,7 @@ import SlideScreen from 'components/screens/slidescreen';
 const HomeStackNavigator = createStackNavigator(
 {
 	Main: {screen: SlideScreen},
-	Map : {screen: MapScreen},
+	Map: {screen : MapScreen},
 	ShowDetails: {screen: ShowDetailsScreen},
 },
 {
