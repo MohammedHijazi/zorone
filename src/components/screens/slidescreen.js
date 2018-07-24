@@ -42,7 +42,7 @@ const slides = [
     image: require('../../../assets/3.jpeg'),
     imageStyle: styles.image,
     backgroundColor: '#22bcb5',
-  }
+  },
 
   {
     key: 'somethun1',
