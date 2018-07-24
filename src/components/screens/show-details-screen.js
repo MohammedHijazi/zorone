@@ -10,7 +10,7 @@ import MapView from 'react-native-maps';
 const Container = styled.View`
   background-color: ${COLORS.GREY.BLACK_RUSSIAN};
   height: 100%;
-`;
+;
 
 const TitleContainer = styled.View`
   display: flex;

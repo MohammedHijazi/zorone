@@ -17,40 +17,31 @@ const styles = StyleSheet.create({
     height: 320,
   }
 });
- 
+
 const slides = [
   {
     key: 'somethun',
-    title: 'Title 1',
-    text: 'Description.\nSay something cool',
-    image: require('../../../assets/1.png'),
+    title: 'Welcome to Gaza !',
+    text: 'Use Zuruni to discover the best .\n Restaurants, Hotels and attractions here in Gaza !',
+    image: require('../../../assets/gaza.jpg'),
     imageStyle: styles.image,
     backgroundColor: '#59b2ab',
   },
   {
     key: 'somethun-dos',
-    title: 'Title 2',
-    text: 'Other cool stuff',
-    image: require('../../../assets/2.jpg'),
+    title: 'Curated by locals',
+    text: 'All our tips information comes from Gazans , \n Who Know the best blaus to go !',
+    image: require('../../../assets/pepole.jpg'),
     imageStyle: styles.image,
-    backgroundColor: '#febe29',
+    backgroundColor: '#ffb3b3',
   },
   {
     key: 'somethun1',
-    title: 'Rocket guy',
-    text: 'I\'m already out of descriptions\n\nLorem ipsum bla bla bla',
-    image: require('../../../assets/3.jpeg'),
+    title: 'Stat Exploring !',
+    text: 'We can\'t wait for you to experience \n our Palestine ',
+    image: require('../../../assets/explore.jpg'),
     imageStyle: styles.image,
-    backgroundColor: '#22bcb5',
-  },
-
-  {
-    key: 'somethun1',
-    title: 'Rocket guy',
-    text: 'I\'m already out of descriptions\n\nLorem ipsum bla bla bla',
-    image: require('../../../assets/3.jpeg'),
-    imageStyle: styles.image,
-    backgroundColor: '#22bcb5',
+    backgroundColor: '#b561d1',
   }
 ];
 

@@ -6,8 +6,6 @@ import { COLORS } from 'constants/styles';
 import styled from 'styled-components/native';
 import MapView from 'react-native-maps';
 
-
-
 const DrawerContainer = styled.View`
   flex: 1;
   background-color: ${COLORS.GREY.BRIGHT_GREY};
