@@ -80,7 +80,7 @@ const MyListButtonText = styled.Text`
   margin-left: 5;
 `;
 
-class ShowDetailsScreen extends Component {
+class CulturePage extends Component {
   render() {
     const { params } = this.props.navigation.state;
     return (
@@ -91,22 +91,18 @@ class ShowDetailsScreen extends Component {
               <Icon name={'arrow-left'} size={30} color={COLORS.WHITE.WHITE} />
             </BackIconContainer>
           </TouchableOpacity>
+
           <ImageHeader source={params.image} resizeMode={'contain'} />
-          <TouchableOpacity onPress={() => {}}>
-            <PlayIconContainer>
-              <Icon name={'play-circle-o'} size={60} color={COLORS.WHITE.WHITE} />
-            </PlayIconContainer>
-          </TouchableOpacity>
+          
+
         </HeaderContainer>
         <TitleContainer>
           <TitleText>{params.title}</TitleText>
           <TouchableOpacity onPress={() => {}}>
-            <MyListButton>
-              <Icon name="plus" size={10} color={COLORS.WHITE.WHITE} />
-              <MyListButtonText>{'MY LIST'}</MyListButtonText>
-            </MyListButton>
           </TouchableOpacity>
         </TitleContainer>
+
+        
         <SummaryContainer>
           <SummaryHeader>{'Summary'}</SummaryHeader>
           <SummaryText>{params.summary}</SummaryText>
@@ -118,4 +114,4 @@ class ShowDetailsScreen extends Component {
   }
 }
 
-export default ShowDetailsScreen;
+export default CulturePage;

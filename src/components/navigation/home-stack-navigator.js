@@ -3,15 +3,19 @@
 import React from 'react';
 import { createStackNavigator } from 'react-navigation';
 import HomeScreen from 'components/screens/home-screen';
-import ShowDetailsScreen from 'components/screens/show-details-screen';
 import MapScreen from 'components/screens/map';
 import SlideScreen from 'components/screens/slidescreen';
+import CulturePage from 'components/screens/culture';
+
+
+
+
 
 const HomeStackNavigator = createStackNavigator(
 {
-	Main: {screen: SlideScreen},
+	Main: {screen: CulturalPage},
 	Map: {screen : MapScreen},
-	ShowDetails: {screen: ShowDetailsScreen},
+	culture:{screen:CulturePage};
 },
 {
 	initialRouteName: 'Main',

@@ -6,10 +6,6 @@ import React, { Component } from 'react';
 import { StyleSheet, Text, View } from "react-native";
 import MapView from 'react-native-maps';
 import TimerMixin from 'react-timer-mixin';
-<<<<<<< HEAD
-=======
-//import Slideshow from 'react-native-slideshow';
->>>>>>> 0e0b42c... hadi
 import { LinearGradient } from 'expo';
 import AppIntroSlider from 'react-native-app-intro-slider';
 import { Ionicons } from '@expo/vector-icons';
