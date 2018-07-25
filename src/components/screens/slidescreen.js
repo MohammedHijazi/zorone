@@ -49,7 +49,7 @@ const slides = [
 
 class SlideScreen extends Component {
 	  _onDone = () => {
-	    this.props.navigation.navigate('Map')
+	    this.props.navigation.navigate('Buttons')
 	}
 
 	  render() {
@@ -63,7 +63,7 @@ class SlideScreen extends Component {
 	        showSkipButton
 	        // hideNextButton
 	        // hideDoneButton
-	        // onSkip={() => console.log("skipped")}
+	        onSkip={() => this.props.navigation.navigate('Buttons') }
 	      />
 	    );
 	  }
