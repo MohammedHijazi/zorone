@@ -16,20 +16,22 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#FFFFFF'
+        backgroundColor: '#808080'
       },
       buttonContainer: {
         backgroundColor: '#2E9298',
-        borderRadius: 10,
+        borderRadius: 15,
         margin:50,
         padding: 10,
+        paddingLeft:20,
+        paddingRight:20,
         shadowColor: '#000000',
         shadowOffset: {
           width: 0,
           height: 3
         },
         shadowRadius: 10,
-        shadowOpacity: 0.25
+        shadowOpacity: .25
       }
 });
 
@@ -52,7 +54,7 @@ class ButtonsPage extends Component {
 
 
         <View style={styles.buttonContainer}>
-          <Button onPress={this._onDone} title="Jericho" color="#00FF00" accessibilityLabel="Tap on Me"/>
+          <Button onPress={this._onDone} title="Jericho"  color="#00FF00" accessibilityLabel="Tap on Me"/>
         </View>
 
 
