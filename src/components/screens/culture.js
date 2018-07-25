@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { TouchableOpacity } from 'react-native';
+import { TouchableOpacity , View ,Image } from 'react-native';
 import styled from 'styled-components/native';
 import { COLORS } from 'constants/styles';
 import Icon from 'react-native-vector-icons/FontAwesome';
@@ -19,10 +19,12 @@ const TitleContainer = styled.View`
   padding-top: 10;
   padding-left: 10;
   padding-bottom: 10;
+  padding-left:120;
 `;
 
 const TitleText = styled.Text`
   color: ${COLORS.WHITE.WHITE};
+  font-size:30;
 `;
 
 const SummaryContainer = styled.View`
@@ -39,6 +41,7 @@ const SummaryText = styled.Text`
 
 const SummaryHeader = styled(SummaryText)`
   margin-bottom: 15;
+  padding-left:150;
 `;
 
 const SummaryCreditsText = styled.Text`
@@ -46,14 +49,23 @@ const SummaryCreditsText = styled.Text`
   margin-top: 5;
 `;
 
-const HeaderContainer = styled.View`
-`;
 
 const ImageHeader = styled.Image`
   width: 100%;
   height: 150;
   margin-top: 10;
 `;
+
+
+const DabkaImage = styled.Image`
+  padding-left:35;
+`;
+
+
+const HeaderContainer = styled.View`
+
+`;
+
 
 const BackIconContainer = styled.View`
   margin-top: 10;
@@ -63,6 +75,7 @@ const BackIconContainer = styled.View`
 const PlayIconContainer = styled.View`
   margin-left: 10;
 `;
+
 
 const MyListButton = styled.View`
   display: flex;
@@ -91,24 +104,25 @@ class CulturePage extends Component {
               <Icon name={'arrow-left'} size={30} color={COLORS.WHITE.WHITE} />
             </BackIconContainer>
           </TouchableOpacity>
-
-          <ImageHeader source={params.image} resizeMode={'contain'} />
-          
-
         </HeaderContainer>
+
+
         <TitleContainer>
-          <TitleText>{params.title}</TitleText>
-          <TouchableOpacity onPress={() => {}}>
-          </TouchableOpacity>
+          <TitleText>Gaza Culture</TitleText>
         </TitleContainer>
 
         
         <SummaryContainer>
-          <SummaryHeader>{'Summary'}</SummaryHeader>
-          <SummaryText>{params.summary}</SummaryText>
-          <SummaryCreditsText>{'Starring: '}{params.starring}</SummaryCreditsText>
-          <SummaryCreditsText>{'Creator: '}{params.creator}</SummaryCreditsText>
+          <SummaryHeader>{'Dabka'}</SummaryHeader>
+          <View>
+              <Image source={require('../../../assets/Dabka.jpg')} />  
+          </View>
+          <SummaryCreditsText>Is a folkloric dance that is popular in the Levant and represents the folklore of those countries.
+           Often practiced in festivals and weddings. The Dabkeh group consists of a group of more than ten people, dubbing a dibak, a yargul player, a bar and a drum.</SummaryCreditsText>
+          <SummaryCreditsText>{}</SummaryCreditsText>
         </SummaryContainer>
+
+
       </Container>
     );
   }

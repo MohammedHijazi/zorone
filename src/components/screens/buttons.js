@@ -47,12 +47,12 @@ class ButtonsPage extends Component {
 
 
         <View style={styles.buttonContainer}>
-          <Button onCone={this._onCone} title=" Culture" color="#00FF00" accessibilityLabel="Tap on Me"/>
+          <Button onPress={this._onCone} title=" Culture" color="#00FF00" accessibilityLabel="Tap on Me"/>
         </View>
 
 
         <View style={styles.buttonContainer}>
-          <Button onDone={this._onDone} title="Jericho" color="#00FF00" accessibilityLabel="Tap on Me"/>
+          <Button onPress={this._onDone} title="Jericho" color="#00FF00" accessibilityLabel="Tap on Me"/>
         </View>
 
 
@@ -68,18 +68,16 @@ class ButtonsPage extends Component {
 
   _onPress = () => {
     this.props.navigation.navigate('Map');
-
   }
-  
-  _onDone = () => {
-    Alert.alert('Coming Soon!');\
 
-}
-
-  _onCone = () => {
+    _onCone = () => {
     this.props.navigation.navigate('culture');
-
   }
+
+  _onDone = () => {
+    Alert.alert('Coming Soon!');
+  }
+
 
 
 
