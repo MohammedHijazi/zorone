@@ -152,7 +152,7 @@ class MapScreen extends Component {
               coordinate={{latitude: 31.515977,
               longitude: 34.449376}}
               title={'Capital Mall'}
-              description={'#'}
+              description={'Capital Mall, the first integrated shopping mall in the Gaza Strip'}
               />
 
 

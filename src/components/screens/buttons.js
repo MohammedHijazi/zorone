@@ -1,3 +1,4 @@
+
 import styled from 'styled-components/native';
 import Header from 'components/common/header';
 import { COLORS } from 'constants/styles';
@@ -16,10 +17,10 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#808080'
+        backgroundColor: '#FFFFFF'
       },
       buttonContainer: {
-        backgroundColor: '#2E9298',
+        backgroundColor: '#000000',
         borderRadius: 15,
         margin:50,
         padding: 10,
@@ -44,17 +45,17 @@ class ButtonsPage extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.buttonContainer}>
-          <Button onPress={this._onPress} title="  Gaza " color="#00FF00" accessibilityLabel="Tap on Me"/>
+          <Button onPress={this._onPress} title="  Gaza " color="#FFFFFF" accessibilityLabel="Tap on Me"/>
         </View>
 
 
         <View style={styles.buttonContainer}>
-          <Button onPress={this._onCone} title=" Culture" color="#00FF00" accessibilityLabel="Tap on Me"/>
+          <Button onPress={this._onCone} title=" Culture" color="#FFFFFF" accessibilityLabel="Tap on Me"/>
         </View>
 
 
         <View style={styles.buttonContainer}>
-          <Button onPress={this._onDone} title="Jericho"  color="#00FF00" accessibilityLabel="Tap on Me"/>
+          <Button onPress={this._onDone} title="Jericho"  color="#FFFFFF" accessibilityLabel="Tap on Me"/>
         </View>
 
 

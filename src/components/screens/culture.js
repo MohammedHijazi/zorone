@@ -117,7 +117,7 @@ class CulturePage extends Component {
         <SummaryContainer>
           <SummaryHeader>{'Dabka'}</SummaryHeader>
           <View>
-              <Image source={require('../../../assets/Dabka.jpg')} />  
+              <Image source={require('../../../assets/98.jpg')} />  
           </View>
           <SummaryCreditsText>Is a folkloric dance that is popular in the Levant and represents the folklore of those countries.
            Often practiced in festivals and weddings. The Dabkeh group consists of a group of more than ten people, dubbing a dibak, a yargul player, a bar and a drum.</SummaryCreditsText>
