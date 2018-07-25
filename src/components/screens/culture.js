@@ -114,4 +114,5 @@ class CulturePage extends Component {
   }
 }
 
+
 export default CulturePage;
